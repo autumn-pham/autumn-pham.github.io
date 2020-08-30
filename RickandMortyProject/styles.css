@@ -1,0 +1,159 @@
+body {
+  text-align: center;
+  background: url('file:///Users/autumnpham/Desktop/GA-Projects/Project1/autumn-pham.github.io/RickandMortyProject/rickandmortybkground.jpg');
+  background-position: fixed;
+  background-repeat: repeat-x;
+  background-size: cover;
+  color: white;
+}
+
+.img-banner {
+  text-align: center;
+  animation-name: spin-and-size;
+  animation-duration: 2s;
+}
+
+@keyframes spin-and-size {
+  0% {transform: scale(.2) rotate(0)}
+  100% {transform: scale(1) rotate(360deg)}
+}
+
+.img-banner img {
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  margin-bottom: 30px;
+}
+h2 {
+  font-family: 'Kranky', cursive;
+  font-weight: bold;
+}
+
+
+.ateam-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.rick-carousel-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rick-carousel-images {
+  width: 80%;
+}
+
+.rick-carousel-images img {
+  width: 100%;
+  display: none;
+}
+
+.rick-carousel-images img:first-of-type {
+  display: block;
+}
+
+#image:hover {
+  transform: scale(1.25);
+  opacity: 0.5;
+}
+
+.morty-carousel-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.morty-carousel-images {
+  width: 80%
+}
+
+.morty-carousel-images img {
+  width: 100%;
+  display: none;
+}
+
+.morty-carousel-images img:first-of-type {
+  display: block;
+}
+
+a {
+  color: white;
+}
+
+#navbtn {
+  align-self: center;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.carousel-text {
+  background-color: rgba(0,0,0,0.2);
+  opacity: 0.5;
+  align-self: center;
+  color: white;
+}
+
+.bteam-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+#bteam {
+  width: 31%;
+  border: 2px solid white;
+}
+
+.summer img, .beth img, .jerry img {
+  width: 100%;
+  height: auto;
+}
+
+.summer-btn, .beth-btn, .jerry-btn {
+  float: right;
+}
+
+.summerModal, .bethModal, .jerryModal {
+  background-color: rgba(0,0,0,0.2);
+  width: 31%;
+  border: 1px solid black;
+  display: none;
+  align-self: center;
+  text-align: left;
+}
+
+.summer-close-btn, .beth-close-btn, .jerry-close-btn {
+  float: right;
+}
+
+.gif-carousel-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.gif-carousel-images img {
+  width: 100%;
+  display: none;
+}
+
+.gif-carousel-images img:first-of-type {
+  display: block;
+}
+
+.fa {
+  font-size: 50px;
+  width: 50px;
+  text-decoration: none;
+  margin-top: 20px;
+}
