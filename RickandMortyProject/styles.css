@@ -157,3 +157,16 @@ a {
   text-decoration: none;
   margin-top: 20px;
 }
+
+
+/* responsive css, smaller sizes */
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: .5em;
+  }
+
+  #navbtn {
+    font-size: 1em;
+  }
+}
