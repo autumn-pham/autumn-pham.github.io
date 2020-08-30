@@ -166,7 +166,52 @@ a {
     font-size: .5em;
   }
 
+  .ateam-container {
+    display: block;
+  }
+
+  .rick {
+    margin: 30px 0;
+  }
+
+  .morty {
+    margin: 30px 0;
+  }
+
   #navbtn {
     font-size: 1em;
+  }
+
+  .bteam-container {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+
+  #bteam {
+    text-align: center;
+    width: 90%;
+    margin: 0 20px;
+  }
+
+  .summer, .beth, .jerry {
+    margin: 30px 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .summerModal, .bethModal, .jerryModal {
+    width: 90%;
+    margin: 30px 20px;
+  }
+
+  .summer-btn, .beth-btn, .jerry-btn {
+    float: right;
+    font-size: .25em;
+  }
+
+  .summer-close-btn, .beth-close-btn, .jerry-close-btn {
+    float: right;
+    font-size: .25em;
   }
 }
