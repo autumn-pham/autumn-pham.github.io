@@ -124,11 +124,13 @@ a {
 
 .summerModal, .bethModal, .jerryModal {
   background-color: rgba(0,0,0,0.2);
-  width: 31%;
-  border: 1px solid black;
+  /* width: 31%; */
+  border: 1px inset white;
   display: none;
   align-self: center;
   text-align: left;
+  z-index: 1;
+  border-radius: 20px;
 }
 
 .summer-close-btn, .beth-close-btn, .jerry-close-btn {
@@ -162,6 +164,12 @@ a {
 /* responsive css, smaller sizes */
 
 @media only screen and (max-width: 600px) {
+  .img-banner img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+  }
+
   h2 {
     font-size: .5em;
   }
@@ -192,19 +200,14 @@ a {
 
   #bteam {
     text-align: center;
-    width: 90%;
-    margin: 0 20px;
+    width: 80%;
+    margin: 30px;
   }
 
   .summer, .beth, .jerry {
     margin: 30px 0;
     text-align: center;
     align-items: center;
-  }
-
-  .summerModal, .bethModal, .jerryModal {
-    width: 90%;
-    margin: 30px 20px;
   }
 
   .summer-btn, .beth-btn, .jerry-btn {
