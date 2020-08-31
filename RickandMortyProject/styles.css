@@ -19,7 +19,7 @@ body {
 }
 
 .img-banner img {
-  width: 40%;
+  width: 60%;
   height: auto;
   border-radius: 20px;
 }
@@ -110,7 +110,7 @@ a {
 
 #bteam {
   width: 31%;
-  border: 2px solid white;
+  border: 2px ridge white;
 }
 
 .summer img, .beth img, .jerry img {
@@ -220,4 +220,5 @@ a {
     float: right;
     font-size: .25em;
   }
+
 }
