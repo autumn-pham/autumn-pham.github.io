@@ -170,12 +170,14 @@ a {
     display: block;
   }
 
-  .rick {
+  .rick-carousel-container {
     margin: 30px 0;
+    width: 90%
   }
 
-  .morty {
+  .morty-carousel-container {
     margin: 30px 0;
+    width: 90%
   }
 
   #navbtn {
