@@ -118,23 +118,20 @@ a {
   height: auto;
 }
 
-.summer-btn, .beth-btn, .jerry-btn {
+.summer-btn, .beth-btn, .jerry-btn, .summer-close-btn, .beth-close-btn, .jerry-close-btn {
   float: right;
+  border-radius: 5px;
 }
 
 .summerModal, .bethModal, .jerryModal {
   background-color: rgba(0,0,0,0.2);
-  /* width: 31%; */
+  width: 100%;
   border: 1px inset white;
   display: none;
   align-self: center;
   text-align: left;
   z-index: 1;
   border-radius: 20px;
-}
-
-.summer-close-btn, .beth-close-btn, .jerry-close-btn {
-  float: right;
 }
 
 .gif-carousel-container {
