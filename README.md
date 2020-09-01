@@ -1,5 +1,7 @@
 Meet the cast of Rick and Morty!
 
+Link to live site: https://autumn-pham.github.io/
+
 Technologies used:
 
 I used the Rick and Morty API: https://rickandmortyapi.com/ and followed the ajax function in jquery we went over in class.
