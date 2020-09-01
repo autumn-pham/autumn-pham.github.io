@@ -220,4 +220,12 @@ a {
     font-size: .25em;
   }
 
+  .icons {
+    background-color: gray;
+  }
+
+  .summerModal, .bethModal, .jerryModal {
+    background-color: rgb(192,192,192);
+  }
+
 }
