@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: url('file:///Users/autumnpham/Desktop/GA-Projects/Project1/autumn-pham.github.io/RickandMortyProject/rickandmortybkground.jpg');
+  background: url('https://livewallpaperhd.com/wp-content/uploads/2017/08/Rick-And-Morty-Wallpaper-Iphone.jpg');
   background-position: fixed;
   background-repeat: repeat-x;
   background-size: cover;
@@ -151,7 +151,8 @@ a {
 }
 
 .fa {
-  font-size: 50px;
+  font-size: 80px;
+  color: blue;
   width: 50px;
   text-decoration: none;
   margin-top: 20px;
