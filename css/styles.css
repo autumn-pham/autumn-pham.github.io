@@ -1,9 +1,6 @@
 body {
   text-align: center;
-  background: url('https://livewallpaperhd.com/wp-content/uploads/2017/08/Rick-And-Morty-Wallpaper-Iphone.jpg');
-  background-position: fixed;
-  background-repeat: repeat-x;
-  background-size: cover;
+  background-color: black;
   color: white;
 }
 
@@ -153,7 +150,7 @@ a {
 
 .fa {
   font-size: 100px;
-  color: blue;
+  color: rgb(192,192,192);
   width: 50px;
   text-decoration: none;
   margin-top: 20px;
@@ -218,10 +215,6 @@ a {
   .summer-close-btn, .beth-close-btn, .jerry-close-btn {
     float: right;
     font-size: .25em;
-  }
-
-  .icons {
-    background-color: gray;
   }
 
   .summerModal, .bethModal, .jerryModal {
