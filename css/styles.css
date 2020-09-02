@@ -111,6 +111,13 @@ a {
   border: 2px ridge white;
 }
 
+.summer {
+  background: url('img/summer.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .summer img, .beth img, .jerry img {
   width: 100%;
   height: auto;
@@ -220,6 +227,11 @@ a {
 
   .summerModal, .bethModal, .jerryModal {
     background-color: rgb(192,192,192);
+  }
+
+  #image:hover {
+    transform: scale(1);
+    opacity: 0.5;
   }
 
 }
